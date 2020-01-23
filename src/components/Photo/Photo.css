@@ -1,0 +1,7 @@
+.photoContainer {
+    height: 100vh;
+}
+
+.photoContainer img {
+    max-height: 100%;
+}
