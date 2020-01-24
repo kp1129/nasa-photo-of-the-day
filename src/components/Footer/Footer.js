@@ -4,8 +4,8 @@ import "./Footer.css";
 const Footer = (props) => {
     return (
         <footer>
-            <p>Copyright: {props.copyright}</p>
-            <p>{props.desc}</p>
+            <p>Copyright: {props.data.copyright}</p>
+            <p>{props.data.explanation}</p>
         </footer>
     )
 }

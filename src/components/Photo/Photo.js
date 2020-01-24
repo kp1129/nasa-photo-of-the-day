@@ -6,7 +6,7 @@ const Photo = (props) => {
   
     return (
         <div className="photoContainer">
-            <img src={props.apodImg} alt={props.title} />
+            <img src={props.data.hdurl} alt={props.data.title} />
         </div>
     )
 
